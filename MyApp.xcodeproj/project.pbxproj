@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		EC63DEDE28E39D800034CEAB /* MyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DEDD28E39D800034CEAB /* MyAppApp.swift */; };
-		EC63DEE028E39D800034CEAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DEDF28E39D800034CEAB /* ContentView.swift */; };
+		EC63DEE028E39D800034CEAB /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DEDF28E39D800034CEAB /* StartView.swift */; };
 		EC63DEE228E39D810034CEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC63DEE128E39D810034CEAB /* Assets.xcassets */; };
 		EC63DEE528E39D810034CEAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC63DEE428E39D810034CEAB /* Preview Assets.xcassets */; };
+		EC63DEEE28E39DAA0034CEAB /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DEED28E39DAA0034CEAB /* RegistrationView.swift */; };
+		EC63DEF028E3AD3D0034CEAB /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DEEF28E3AD3D0034CEAB /* AuthorizationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC63DEDA28E39D800034CEAB /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC63DEDD28E39D800034CEAB /* MyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppApp.swift; sourceTree = "<group>"; };
-		EC63DEDF28E39D800034CEAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC63DEDF28E39D800034CEAB /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		EC63DEE128E39D810034CEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC63DEE428E39D810034CEAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC63DEED28E39DAA0034CEAB /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		EC63DEEF28E3AD3D0034CEAB /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				EC63DEDD28E39D800034CEAB /* MyAppApp.swift */,
-				EC63DEDF28E39D800034CEAB /* ContentView.swift */,
+				EC63DEDF28E39D800034CEAB /* StartView.swift */,
+				EC63DEED28E39DAA0034CEAB /* RegistrationView.swift */,
+				EC63DEEF28E3AD3D0034CEAB /* AuthorizationView.swift */,
 				EC63DEE128E39D810034CEAB /* Assets.xcassets */,
 				EC63DEE328E39D810034CEAB /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC63DEE028E39D800034CEAB /* ContentView.swift in Sources */,
+				EC63DEEE28E39DAA0034CEAB /* RegistrationView.swift in Sources */,
+				EC63DEE028E39D800034CEAB /* StartView.swift in Sources */,
+				EC63DEF028E3AD3D0034CEAB /* AuthorizationView.swift in Sources */,
 				EC63DEDE28E39D800034CEAB /* MyAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
