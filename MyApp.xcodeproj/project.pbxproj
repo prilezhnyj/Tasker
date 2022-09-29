@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC4934D028E6248700B71587 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4934CF28E6248700B71587 /* TestView.swift */; };
 		EC63DEDE28E39D800034CEAB /* MyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DEDD28E39D800034CEAB /* MyAppApp.swift */; };
 		EC63DEE028E39D800034CEAB /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DEDF28E39D800034CEAB /* StartView.swift */; };
 		EC63DEE228E39D810034CEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC63DEE128E39D810034CEAB /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC4934CF28E6248700B71587 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		EC63DEDA28E39D800034CEAB /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC63DEDD28E39D800034CEAB /* MyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppApp.swift; sourceTree = "<group>"; };
 		EC63DEDF28E39D800034CEAB /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				EC63DEDF28E39D800034CEAB /* StartView.swift */,
 				EC63DEED28E39DAA0034CEAB /* RegistrationView.swift */,
 				EC63DEEF28E3AD3D0034CEAB /* AuthorizationView.swift */,
+				EC4934CF28E6248700B71587 /* TestView.swift */,
 				EC63DEE128E39D810034CEAB /* Assets.xcassets */,
 				EC63DEE328E39D810034CEAB /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC63DEEE28E39DAA0034CEAB /* RegistrationView.swift in Sources */,
+				EC4934D028E6248700B71587 /* TestView.swift in Sources */,
 				EC63DEE028E39D800034CEAB /* StartView.swift in Sources */,
 				EC63DEF028E3AD3D0034CEAB /* AuthorizationView.swift in Sources */,
 				EC63DEDE28E39D800034CEAB /* MyAppApp.swift in Sources */,
