@@ -27,9 +27,12 @@ struct StartView: View {
                 VStack(alignment: .leading, spacing: 0) {
                     Text("Таскер")
                         .font(.system(size: 40, weight: .bold, design: .rounded))
+                        .foregroundColor(Color("Blue"))
+                        .shadow(color: Color("Blue").opacity(0.5), radius: 10, x: 0, y: 4)
                     Text("Твой умный ежедневник")
-                        .font(.system(size: 20, weight: .medium, design: .default))
-                    
+                        .font(.system(size: 20, weight: .medium, design: .rounded))
+                        .foregroundColor(Color("Gray"))
+                        .padding(.leading, 6)
                 }
                 
                 Spacer()
@@ -96,20 +99,22 @@ struct StartView: View {
                 showAuthView = false
             }
             .animation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: 0))
+
             .ignoresSafeArea(.all)
             
         
             RegistrationView(email: $email, password: $password, repetPassword: $repetPassword)
-                .animation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: 0))
-                .offset(y: showRegView ? 0 : screen.height)
+                .animation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: 0), value: showRegView)
+            
+            
+            .offset(y: showRegView ? 0 : screen.height)
             
             AuthorizationView(email: $email, password: $password)
-                .animation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: 0))
+                .animation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: 0), value: showAuthView)
                 .offset(y: showAuthView ? 0 : screen.height)
         }
     }
 }
-
 
 struct StartView_Previews: PreviewProvider {
     static var previews: some View {
