@@ -18,6 +18,9 @@
 		EC7C766528EC394300F022EE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EC7C766428EC394300F022EE /* FirebaseAuth */; };
 		EC7C766728EC394300F022EE /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = EC7C766628EC394300F022EE /* FirebaseDatabase */; };
 		EC7C766928EC394300F022EE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EC7C766828EC394300F022EE /* FirebaseStorage */; };
+		ECA2456628ECD9B600D7958F /* AuthServ.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2456528ECD9B600D7958F /* AuthServ.swift */; };
+		ECA2456828ECDD5D00D7958F /* ValidateAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2456728ECDD5D00D7958F /* ValidateAuth.swift */; };
+		ECA2456A28ECDE1300D7958F /* ErrorAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2456928ECDE1300D7958F /* ErrorAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		EC63DEED28E39DAA0034CEAB /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		EC63DEEF28E3AD3D0034CEAB /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
 		EC7C766128EC37FA00F022EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ECA2456528ECD9B600D7958F /* AuthServ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServ.swift; sourceTree = "<group>"; };
+		ECA2456728ECDD5D00D7958F /* ValidateAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateAuth.swift; sourceTree = "<group>"; };
+		ECA2456928ECDE1300D7958F /* ErrorAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 		EC63DEDC28E39D800034CEAB /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				ECA2456428ECD98E00D7958F /* Firebase */,
 				EC63DEDD28E39D800034CEAB /* MyAppApp.swift */,
 				EC63DEDF28E39D800034CEAB /* StartView.swift */,
 				EC63DEED28E39DAA0034CEAB /* RegistrationView.swift */,
@@ -83,6 +90,16 @@
 				EC63DEE428E39D810034CEAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECA2456428ECD98E00D7958F /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2456528ECD9B600D7958F /* AuthServ.swift */,
+				ECA2456728ECDD5D00D7958F /* ValidateAuth.swift */,
+				ECA2456928ECDE1300D7958F /* ErrorAuth.swift */,
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +186,9 @@
 				EC63DEE028E39D800034CEAB /* StartView.swift in Sources */,
 				EC63DEF028E3AD3D0034CEAB /* AuthorizationView.swift in Sources */,
 				EC63DEDE28E39D800034CEAB /* MyAppApp.swift in Sources */,
+				ECA2456628ECD9B600D7958F /* AuthServ.swift in Sources */,
+				ECA2456A28ECDE1300D7958F /* ErrorAuth.swift in Sources */,
+				ECA2456828ECDD5D00D7958F /* ValidateAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -77,7 +77,14 @@ struct RegistrationView: View {
                 .padding(.top, 20)
                 
                 Button {
-                    //
+                    AuthServ().createUser(email: email, password: password, repeatPassword: repetPassword) { result in
+                        switch result {
+                        case .success(let user):
+                            print(user.email!)
+                        case .failure(let error):
+                            print(error.localizedDescription)
+                        }
+                    }
                 } label: {
                     Text("Регистрация")
                         .font(.system(size: 14, weight: .semibold, design: .rounded))
