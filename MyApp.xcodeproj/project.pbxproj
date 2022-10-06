@@ -15,9 +15,7 @@
 		EC63DEEE28E39DAA0034CEAB /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DEED28E39DAA0034CEAB /* RegistrationView.swift */; };
 		EC63DEF028E3AD3D0034CEAB /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC63DEEF28E3AD3D0034CEAB /* AuthorizationView.swift */; };
 		EC7C766228EC37FA00F022EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC7C766128EC37FA00F022EE /* GoogleService-Info.plist */; };
-		EC7C766528EC394300F022EE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EC7C766428EC394300F022EE /* FirebaseAuth */; };
-		EC7C766728EC394300F022EE /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = EC7C766628EC394300F022EE /* FirebaseDatabase */; };
-		EC7C766928EC394300F022EE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EC7C766828EC394300F022EE /* FirebaseStorage */; };
+		EC80D1FB28EED480000D3C30 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EC80D1FA28EED480000D3C30 /* FirebaseAuth */; };
 		ECA2456628ECD9B600D7958F /* AuthServ.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2456528ECD9B600D7958F /* AuthServ.swift */; };
 		ECA2456828ECDD5D00D7958F /* ValidateAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2456728ECDD5D00D7958F /* ValidateAuth.swift */; };
 		ECA2456A28ECDE1300D7958F /* ErrorAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2456928ECDE1300D7958F /* ErrorAuth.swift */; };
@@ -43,9 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC7C766728EC394300F022EE /* FirebaseDatabase in Frameworks */,
-				EC7C766528EC394300F022EE /* FirebaseAuth in Frameworks */,
-				EC7C766928EC394300F022EE /* FirebaseStorage in Frameworks */,
+				EC80D1FB28EED480000D3C30 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,9 +115,7 @@
 			);
 			name = MyApp;
 			packageProductDependencies = (
-				EC7C766428EC394300F022EE /* FirebaseAuth */,
-				EC7C766628EC394300F022EE /* FirebaseDatabase */,
-				EC7C766828EC394300F022EE /* FirebaseStorage */,
+				EC80D1FA28EED480000D3C30 /* FirebaseAuth */,
 			);
 			productName = MyApp;
 			productReference = EC63DEDA28E39D800034CEAB /* MyApp.app */;
@@ -152,7 +146,7 @@
 			);
 			mainGroup = EC63DED128E39D800034CEAB;
 			packageReferences = (
-				EC7C766328EC394300F022EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				EC80D1F928EED480000D3C30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = EC63DEDB28E39D800034CEAB /* Products */;
 			projectDirPath = "";
@@ -393,7 +387,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		EC7C766328EC394300F022EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		EC80D1F928EED480000D3C30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
@@ -404,20 +398,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EC7C766428EC394300F022EE /* FirebaseAuth */ = {
+		EC80D1FA28EED480000D3C30 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EC7C766328EC394300F022EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = EC80D1F928EED480000D3C30 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
-		};
-		EC7C766628EC394300F022EE /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = EC7C766328EC394300F022EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-		EC7C766828EC394300F022EE /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = EC7C766328EC394300F022EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
